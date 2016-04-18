@@ -1,75 +1,80 @@
 *,
 *:after,
 *:before {
-  box-sizing: border-box;
+  /* revise box-sizing value */
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  /* Set the font stack */
+  /* Remove extra space around the body */
   line-height: 1.5;
-  margin: 0;
 }
 
 p {
+  /* Override default space around the paragraph to 0 all around and 16px on the bottom */
   margin: 0 0 16px;
 }
 
-main,
-section {
-  margin-bottom: 48px;
+main{
+  /* To improve legibility, add some extra space under the main (48px) */
 }
 
+section {
+  /* To improve legibility, add some extra space under the section (48px) */
+}
+
+/* Woah woah, are we repeating ourselves up thurr ^^^? */
+/* We shant! Let's fix that. */
+
 nav ul {
-  padding: 0;
-  overflow: auto;
+ /* Is that extra space I see? Let's get rid of it! */
 }
 
 .nav-item {
-  display: inline-block;
+  /* Let's get the items to sit beside each other */
 }
 
 .bio {
-  border: 2px solid #eee;
-  border-radius: 5px;
-  text-align: center;
+  /* Add a border, 2px thick, solid, color of #eeeeee */
+  /* Round up them sharp corners! Let's try 5px */
+  /* Center up that text */
 }
 
 .bio h2 {
-  text-align: center;
-  margin: 0;
-  background-color: #eee;
-  padding: 20px;
+  /* Remove the default spacing around the h2 */
+  /* Set some cushioning all around the h2 (20px) */
+  /* Set a bg color of #eeeeee */
+  /* Center up that text */
 }
 
 .bio-content {
-  text-align: left;
-  padding: 16px;
+  /* Set some cushioning all around the bio-content (16px all around)*/
 }
 
 .spidey-pic {
-  margin-top: 50px;
-  width: 150px;
-  height: auto;
+  /* Set the width of the image to 150px */
+  /* Let's push the image down a bit - give it some space on the top (50px) */
 }
 
 .container {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  /* Let's set the width of the container to 600px */
 }
 
 section h2 {
-  margin: 0 0 12px;
+  /* Undo the default spacing around the h2, and add 12px to the bottom */
 }
 
 .nav-bar {
-  text-align: center;
+  /* Center up that text me-friend! */
 }
 
 .social {
-  text-align: right;
+  /*
+    Align the text to the right, to the right. All the lines of the text should align to the right.
+    I hope you're reading this like how Beyonce would.
+  */
 }
 
 .social li {
-  display: inline;
+  /* Let's get the items to sit beside each other */
 }

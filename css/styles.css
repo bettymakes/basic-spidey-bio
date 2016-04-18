@@ -1,27 +1,22 @@
-*, 
-*:after, 
+*,
+*:after,
 *:before {
   box-sizing: border-box;
 }
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
   line-height: 1.5;
   margin: 0;
 }
 
 p {
-  margin: 0 0 1rem;
-}
-
-p:last-child {
-  margin-bottom: 0;
+  margin: 0 0 16px;
 }
 
 main,
 section {
-  margin-bottom: 3rem;
+  margin-bottom: 48px;
 }
 
 nav ul {
@@ -35,7 +30,7 @@ nav ul {
 
 .bio {
   border: 2px solid #eee;
-  border-radius: 4px;
+  border-radius: 5px;
   text-align: center;
 }
 
@@ -48,7 +43,7 @@ nav ul {
 
 .bio-content {
   text-align: left;
-  padding: 1rem;
+  padding: 16px;
 }
 
 .spidey-pic {
@@ -64,18 +59,17 @@ nav ul {
 }
 
 section h2 {
-  margin: 0 0 0.75rem;
+  margin: 0 0 12px;
 }
 
-
-/* Style Nav Bar Here */
 .nav-bar {
-  text-align: center; // Remove this when you start
+  text-align: center;
 }
 
+.social {
+  text-align: right;
+}
 
-
-
-
-
-
+.social li {
+  display: inline;
+}
